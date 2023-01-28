@@ -64,13 +64,14 @@ body {
   padding: 0.6rem;
   justify-content: center;
   display: flex;
-  color: gray;
+  color: white;
   text-decoration: none;
   align-items: center;
   gap: 15px;
+  background: linear-gradient(45deg, #131086, #159952);
 }
 .login-form-footer a:hover {
-  background-color: purple;
+  background: linear-gradient(45deg, #159952, #131086);
 }
 
 .form-item label:not(.checkboxLabel) {

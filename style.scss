@@ -69,13 +69,15 @@ body{
             padding: .6rem;
             justify-content: center;
             display: flex;
-            color: gray;
+            color: white;
             text-decoration: none;
             align-items: center;
             gap: 15px;
+            background: linear-gradient(45deg,$primary-color,$secondary-color);
 
             &:hover{
-                background-color: purple;
+                background: linear-gradient(45deg,$secondary-color,$primary-color);
+                
             }
         }
     }
