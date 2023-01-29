@@ -80,8 +80,16 @@ body {
   margin-bottom: 10px;
   position: absolute;
   padding: 0 10px;
-  transform: translate(30px, -10px);
-  font-size: 14px;
+  transform: translate(20px, 15px);
+  font-size: 15px;
+  color: grey;
+}
+
+.inputselect {
+  transform: translate(30px, -10px) !important;
+  transition: 300ms;
+  color: black !important;
+  font-size: 15px !important;
 }
 
 input[type=text],
